@@ -49,7 +49,6 @@ class TwitterBot
             $response = $this->twitter->tweet( $reply_tweet, $reply->id );
             if ( property_exists( $response, 'in_reply_to_status_id' ) &&
                  $response->in_reply_to_status_id )
-
             {
                 $latest_reply_id = $response->in_reply_to_status_id;
             }

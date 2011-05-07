@@ -12,7 +12,7 @@ set_include_path( get_include_path() . PATH_SEPARATOR . $pear );
 set_include_path( get_include_path() . PATH_SEPARATOR . $lib );
 
 require_once 'TwitterBot.class.php';
-$tunaco = new TwitterBot( 'botsample1' );
+$tunaco = new TwitterBot( 'tunaco' );
 $response = $tunaco->reply();
 
 var_dump( $response );
