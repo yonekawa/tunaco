@@ -2,6 +2,6 @@
 
 class Message
 {
-    const LIKE = 'もぐもぐ。';
-    const UNLIKE = '嫌い。ぺっ。';
+    const LIKE = 'もぐもぐもぐ。';
+    const UNLIKE = 'もぐもぐ...嫌い。ぺっ。';
 }
